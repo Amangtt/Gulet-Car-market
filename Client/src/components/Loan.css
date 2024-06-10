@@ -1,0 +1,54 @@
+.Find_loan {
+    text-align: center;
+   
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url("C:\Users\hello\Desktop\web_project\client\client1\public\Petersen-Museum-32-copy-1200x800.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .res{
+    color: aliceblue;
+  }
+  .stockdiv{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+  }
+  #stock{
+    border-radius: 4px;
+  }
+  #nav2b {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    background-color: rgb(82, 81, 87);
+    box-shadow: 0 15px 15px 0 rgba(49, 47, 47, 0.2), 0 15px 20px 0 rgba(0, 0, 0, 0.19);
+    flex-wrap: wrap;
+    
+  }
+  #nav2 input {
+    width: 100px;
+    height: 60px;
+    margin: 50px;
+    text-align: center;
+    background-color: wheat;
+  }
+  .nav3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: aliceblue;
+  }
+  .h3{
+    margin-top: 150px;
+    color: aliceblue;
+  }
+  .total{
+    color: aliceblue;
+  }

@@ -1,0 +1,295 @@
+body{
+    background-color: rgb(34, 34, 34);
+}
+.head{
+    padding: 0px;
+    
+}
+.nav {
+    background-color:rgb(16, 16, 124);
+    /*background-size: cover;*/
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    /*box-shadow: 0 7px 8px 0 rgba(168, 152, 152, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    height: 60px;   
+  }
+  .navdesktop{
+      display: flex;
+      justify-content: flex-end;
+      list-style: none;
+      
+  }
+  
+  /*rgb(250, 250, 76)*/
+  li a {
+    display: block;
+    color: rgb(235, 233, 233);
+    text-align: center;
+    padding: 16px 39px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+  }
+  
+  li a:hover {
+    background-color: rgb(216, 201, 201);
+  }
+  .sear{
+    display: flex;
+    justify-content: center;
+}
+.logoh{
+    width: 30px;
+    height: 50px;
+    top: 70px;
+}
+.company{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    right: 20px;
+    color: rgb(250, 249, 246);
+}
+.select{
+    margin: 20px;
+    padding: 10px;
+    width: 250px;
+    
+    border-radius: 10px;
+}
+.car_name{
+    margin: 20px;
+    padding: 10px;
+   color: white;
+    background-color:rgb(87, 90, 90);
+    border-radius: 5px;
+    width: 90px;
+}
+.butnav{
+    display: none;
+}
+.classv{
+    display: flex;
+    flex-direction: row;
+}
+.im2{
+    width: 500px;
+}
+
+.he{
+    font-size: large;
+    width: 300px;
+    color: aliceblue;
+}
+/*slide show*/
+/*
+.slide-frame{
+    overflow: hidden;
+    height: 500px;
+    width: 1200px;
+margin-left: 200px;
+}
+@-webkit-keyframes slide_animation{
+    0%{left: 0px;}
+    10%{left: 0px;}
+    20%{left: 1200px;}
+    30%{left: 1200px;}
+    40%{left: 2400px;}
+    50%{left: 2400px;}
+    60%{left: 1200px;}
+    70%{left: 1200px;} 
+    80%{left: 0px;}
+    90%{left: 0px;}
+    100%{left: 0px;}
+}
+.slide-image{
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -1600px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+.img-container{
+    height: 500px;
+    width: 1200px;
+    position: relative;
+    float: left;
+    display: flex;
+    justify-content: center;
+}*/
+.slide-frame{
+    width: 100%;
+    
+}
+img{
+    width: 100%;
+}
+
+/*logo*/
+.form_i{
+    background-color: white;
+    display: grid;
+    grid-template-rows:  auto 1fr auto auto;
+    grid-template-columns: repeat(6,1fr);
+}
+input{
+    margin: 30px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.suv1{
+   grid-column: 2;
+    grid-row: 2;
+    
+}
+
+.sedan{
+    grid-column: 3;
+    grid-row: 2;
+}
+.kia{
+grid-column: 4;
+    grid-row: 2;
+}
+.jeep{
+    grid-column: 5;
+    grid-row: 2;
+}
+.mercedes{
+    grid-column: 2;
+    grid-row: 1;
+}
+.ford{
+    grid-column: 3;
+    grid-row: 1;
+}
+.nissan{
+    grid-column: 4;
+    grid-row: 1;
+}
+.toyota{
+    grid-column: 5;
+    grid-row: 1;
+}
+.footer{
+    background-color: rgb(19, 18, 18);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+}
+.gulet{
+    
+    grid-column: 2/3;
+}
+.footer1{
+    margin-left: 35px;
+    grid-column: 1;
+    grid-row: 2;
+}
+.footer2{
+    grid-column: 2;
+    grid-row: 2;
+}
+.slide-frame{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media(max-width: 780px) {
+.navdesktop{
+    display: none;
+}    
+.navmobile{
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: rgb(26, 26, 27);
+    left:0;
+    top: 11%;
+    transition: all 0.5s ease-out;
+    width: 100%;
+    
+    
+}
+li a {
+    
+    color: white;
+    text-align: center;
+    padding: 16px 39px;
+    text-decoration: none;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.5s ease-out;
+  }
+  .butnav{
+      display: block;
+      position: absolute;
+      font-size: 30px;
+      color: white;
+      background-color: white;
+      border: none;
+      top: 15px;
+      right: 25px;
+  }
+  
+/*button*/
+.suv1{
+   grid-column: 2;
+    grid-row: 4;
+    
+}
+
+.sedan{
+    grid-column: 3;
+    grid-row: 4;
+}
+.kia{
+grid-column: 2;
+    grid-row: 3;
+}
+.jeep{
+    grid-column: 3;
+    grid-row: 3;
+}
+.mercedes{
+    grid-column: 2;
+    grid-row: 1;
+}
+.ford{
+    grid-column: 3;
+    grid-row: 1;
+}
+.nissan{
+    grid-column: 2;
+    grid-row: 2;
+}
+.toyota{
+    grid-column: 3;
+    grid-row: 2;
+}
+/*footer*/
+.footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+}
+.gulet{
+    
+    grid-column: 2/3;
+}
+.footer1{
+    margin-left: 35px;
+    grid-column: 1;
+    grid-row: 2;
+}
+}

@@ -1,0 +1,99 @@
+
+.Find_car{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url("C:\Users\hello\Desktop\web_project\client\client1\public\Petersen-Museum-32-copy-1200x800.jpg");
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+ /* background-image: url("C:\Users\hello\Desktop\web_project\client\client1\public\Petersen-Museum-32-copy-1200x800.jpg");
+    height: 600px;
+    background-blend-mode: darken;*/
+}
+.fil{
+  color: aliceblue;
+}
+.div1 {
+  
+  display: flex;
+  flex-direction: row;
+justify-content: center;
+/*background-color: burlywood;*/
+box-shadow: 0 7px 8px 0 rgba(168, 152, 152, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+flex-wrap: wrap;
+}
+#search{
+  width: 250px;
+}
+.div2 {
+  display: flex;
+  flex-direction: row;
+  /*background-color: rgb(102, 99, 97);*/
+  justify-content: center;
+  flex-wrap: wrap;
+  color: aliceblue;
+}
+.div3{
+  display: flex;
+  flex-direction: row;
+  color: aliceblue;
+}
+.nav2 {
+  grid-area: filter;
+  background-color: rgb(213, 126, 240);
+}
+
+.nav3{
+  grid-area: result;
+  background-color: rgb(190, 231, 95);
+}
+/*ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}*/
+
+li {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+img {
+  border-radius: 20px;
+  padding: 5px;
+  
+}
+
+/*li:hover {
+  background-color: #555;
+  color: white;
+}*/
+
+
+#filter_button {
+  background-color: #12d319;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;}
+#find_button {
+  background-color: #12d319;
+  border: none;
+  color: white;
+  padding: 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 70px;
+  border-radius: 8px;}

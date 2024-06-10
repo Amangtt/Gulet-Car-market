@@ -1,0 +1,73 @@
+.loginpage{
+   /* background:linear-gradient(120deg,#b9bcbe,#020003);*/
+   background-image: url("C:\Users\hello\Desktop\web_project\client\client1\public\Petersen-Museum-32-copy-1200x800.jpg");
+    height: 600px;
+    
+}
+.login{
+    border: 2px ;
+    width: 500px;
+    margin-left: 30%;
+    
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    
+    box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.login h1{
+    text-align: center;
+}
+.login .formlog{
+    margin-top: 80px;
+    padding: 0 80px;
+    box-sizing: border-box;
+}
+.text_feild input{
+    position: relative;
+    border: none;
+    border-bottom: 2px solid #adadad;
+    width: 240px;
+    height: 30px;
+}
+
+.log{
+    width: 240px;
+    height: 30px;
+    margin-left: 30px;
+    border: 1px solid;
+    background-color: #2691d9;
+    border-radius: 25px;
+    color: white;
+}
+.link{
+    margin: 30px 0;
+    text-align: center;
+}
+@media(max-width:780px){
+    .login{
+        border: 2px ;
+        width: 300px;
+        margin-left: 30%;
+        height: 400px;
+        background-color: white;
+       
+    }
+    .text_feild input{
+        position: relative;
+        border: none;
+        border-bottom: 2px solid #073655;
+        width: 140px;
+        height: 30px;
+        right: 30px;
+    }
+    .log{
+        width: 140px;
+        height: 30px;
+        margin-left: 5px;
+        border: 1px solid;
+        background-color: #073655;
+        border-radius: 25px;
+        color: white;
+        
+    }         
+}
